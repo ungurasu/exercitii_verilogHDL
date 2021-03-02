@@ -1,0 +1,4 @@
+module transcodor(input in, output wire[6:0] out);
+	assign out[6:1] = 5'b00000;
+	assign out[0] = in;
+endmodule

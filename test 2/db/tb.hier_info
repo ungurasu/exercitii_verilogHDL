@@ -1,0 +1,80 @@
+|tb
+
+
+|tb|FF:FF1
+ffin => notout.IN0
+ffclk => ffout.IN0
+ffclk => notout.IN1
+ffrst => ffout.IN1
+ffout <= ffout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tb|CG5:CG51
+cgin => cgin.IN1
+cgclck => cgclck.IN5
+cgnrst => _.IN1
+cgnrst => _.IN1
+cgnrst => _.IN1
+cgnrst => _.IN1
+cgnrst => _.IN1
+cgout <= cgout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tb|CG5:CG51|XOR1:XOR11
+xin0 => xout.IN0
+xin1 => xout.IN1
+xout <= xout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tb|CG5:CG51|FF:FF1
+ffin => notout.IN0
+ffclk => ffout.IN0
+ffclk => notout.IN1
+ffrst => ffout.IN1
+ffout <= ffout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tb|CG5:CG51|FF:FF2
+ffin => notout.IN0
+ffclk => ffout.IN0
+ffclk => notout.IN1
+ffrst => ffout.IN1
+ffout <= ffout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tb|CG5:CG51|XOR1:XOR12
+xin0 => xout.IN0
+xin1 => xout.IN1
+xout <= xout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tb|CG5:CG51|FF:FF3
+ffin => notout.IN0
+ffclk => ffout.IN0
+ffclk => notout.IN1
+ffrst => ffout.IN1
+ffout <= ffout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tb|CG5:CG51|FF:FF4
+ffin => notout.IN0
+ffclk => ffout.IN0
+ffclk => notout.IN1
+ffrst => ffout.IN1
+ffout <= ffout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tb|CG5:CG51|XOR1:XOR13
+xin0 => xout.IN0
+xin1 => xout.IN1
+xout <= xout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|tb|CG5:CG51|FF:FF5
+ffin => notout.IN0
+ffclk => ffout.IN0
+ffclk => notout.IN1
+ffrst => ffout.IN1
+ffout <= ffout.DB_MAX_OUTPUT_PORT_TYPE
+
+

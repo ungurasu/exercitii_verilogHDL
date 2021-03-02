@@ -1,0 +1,193 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do testbench_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/COLOCVIU\ 2 {C:/Users/Andrei/Documents/CID/COLOCVIU 2/testbench.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:50:31 on May 20,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/COLOCVIU 2" C:/Users/Andrei/Documents/CID/COLOCVIU 2/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 16:50:31 on May 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/COLOCVIU\ 2 {C:/Users/Andrei/Documents/CID/COLOCVIU 2/RAMt.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:50:31 on May 20,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/COLOCVIU 2" C:/Users/Andrei/Documents/CID/COLOCVIU 2/RAMt.v 
+# -- Compiling module RAMt
+# 
+# Top level modules:
+# 	RAMt
+# End time: 16:50:31 on May 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/COLOCVIU\ 2 {C:/Users/Andrei/Documents/CID/COLOCVIU 2/ALUt.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:50:31 on May 20,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/COLOCVIU 2" C:/Users/Andrei/Documents/CID/COLOCVIU 2/ALUt.v 
+# -- Compiling module ALUt
+# 
+# Top level modules:
+# 	ALUt
+# End time: 16:50:31 on May 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/COLOCVIU\ 2 {C:/Users/Andrei/Documents/CID/COLOCVIU 2/MUXt.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:50:31 on May 20,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/COLOCVIU 2" C:/Users/Andrei/Documents/CID/COLOCVIU 2/MUXt.v 
+# -- Compiling module MUXt
+# 
+# Top level modules:
+# 	MUXt
+# End time: 16:50:31 on May 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/COLOCVIU\ 2 {C:/Users/Andrei/Documents/CID/COLOCVIU 2/TOPt.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:50:31 on May 20,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/COLOCVIU 2" C:/Users/Andrei/Documents/CID/COLOCVIU 2/TOPt.v 
+# -- Compiling module TOPt
+# 
+# Top level modules:
+# 	TOPt
+# End time: 16:50:31 on May 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.testbench
+# vsim -gui "+altera" -l msim_transcript -do "testbench_run_msim_rtl_verilog.do" 
+# Start time: 16:50:36 on May 20,2020
+# Loading work.testbench
+# Loading work.TOPt
+# Loading work.RAMt
+# Loading work.ALUt
+# Loading work.MUXt
+add wave -position end  sim:/testbench/addr
+add wave -position end  sim:/testbench/addrop1
+add wave -position end  sim:/testbench/addrop2
+add wave -position end  sim:/testbench/data
+add wave -position end  sim:/testbench/clock
+add wave -position end  sim:/testbench/we
+add wave -position end  sim:/testbench/sel
+add wave -position end  sim:/testbench/opcode
+add wave -position end  sim:/testbench/out
+run -all
+add wave -position end  sim:/testbench/DUT1/DUT2/opcode
+add wave -position end  sim:/testbench/DUT1/DUT2/out
+add wave -position 9  sim:/testbench/DUT1/DUT1/rdataop1
+add wave -position 10  sim:/testbench/DUT1/DUT1/rdataop2
+restart -f
+run -all
+restart -f
+step
+step
+step
+step
+step
+step -over
+restart -f
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+step -over
+# Next activity is in 21 ns.
+step -over
+step -over
+step -over
+step -over
+step -over
+# Next activity is in 21 ns.
+step -over
+step -over -current
+step -out
+step -current
+run
+run -continue
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+run -next
+step
+step
+step -over
+step -over
+step -over
+# Next activity is in 21 ns.
+step -over
+step
+step
+step
+step
+step
+step -current
+step -current
+step -current
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+# End time: 17:05:02 on May 20,2020, Elapsed time: 0:14:26
+# Errors: 0, Warnings: 0

@@ -1,0 +1,7 @@
+module ALUt(input[3:0] op1, input[3:0] op2, input clock, input[1:0] opcode, output reg[4:0] out);
+	always@(posedge clock) begin
+		if (opcode == 0) begin
+			out <= op1+op2;
+		end
+	end
+endmodule

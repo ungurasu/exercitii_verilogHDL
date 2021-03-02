@@ -1,0 +1,158 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Andrei/Documents/CID/COLOCVIUL 1/simulation/modelsim
+vcomparatort
+Z1 !s110 1589374989
+!i10b 1
+!s100 kKd6fJZo6l;Z<EPjVjNPZ3
+I23Ve16Zin]FcA94_iad3C2
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1589373140
+8C:/Users/Andrei/Documents/CID/COLOCVIUL 1/comparatort.v
+FC:/Users/Andrei/Documents/CID/COLOCVIUL 1/comparatort.v
+L0 1
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1589374989.713000
+!s107 C:/Users/Andrei/Documents/CID/COLOCVIUL 1/comparatort.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL 1|C:/Users/Andrei/Documents/CID/COLOCVIUL 1/comparatort.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL 1}
+vmuxt
+R1
+!i10b 1
+!s100 H;0c=nMMkWV239G:5eF_Q0
+IhdGWm1D^jM_OXe]EQB2X53
+R2
+R0
+w1589374632
+8C:/Users/Andrei/Documents/CID/COLOCVIUL 1/muxt.v
+FC:/Users/Andrei/Documents/CID/COLOCVIUL 1/muxt.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589374989.803000
+!s107 C:/Users/Andrei/Documents/CID/COLOCVIUL 1/muxt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL 1|C:/Users/Andrei/Documents/CID/COLOCVIUL 1/muxt.v|
+!i113 1
+R4
+R5
+vparityChecker
+R1
+!i10b 1
+!s100 IKeS2A`iKoc1JQY2JA=Fz1
+I1e>ZGM1emKj8VMmY?ofel0
+R2
+R0
+w1589372433
+8C:/Users/Andrei/Documents/CID/COLOCVIUL 1/parityChecker.v
+FC:/Users/Andrei/Documents/CID/COLOCVIUL 1/parityChecker.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589374989.526000
+!s107 C:/Users/Andrei/Documents/CID/COLOCVIUL 1/parityChecker.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL 1|C:/Users/Andrei/Documents/CID/COLOCVIUL 1/parityChecker.v|
+!i113 1
+R4
+R5
+nparity@checker
+vsumator
+R1
+!i10b 1
+!s100 TbQo4>fO2A1Smjz=3[]j70
+IUbj7^PAXFlPKma;RfIk?M1
+R2
+R0
+w1589372808
+8C:/Users/Andrei/Documents/CID/COLOCVIUL 1/sumator.v
+FC:/Users/Andrei/Documents/CID/COLOCVIUL 1/sumator.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589374989.575000
+!s107 C:/Users/Andrei/Documents/CID/COLOCVIUL 1/sumator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL 1|C:/Users/Andrei/Documents/CID/COLOCVIUL 1/sumator.v|
+!i113 1
+R4
+R5
+vtestbench
+R1
+!i10b 1
+!s100 nOh[H3lHPmM>aP1_OD_7h2
+I4MXaZgHmYX76Z30Bk_LbI2
+R2
+R0
+w1589374699
+8C:/Users/Andrei/Documents/CID/COLOCVIUL 1/testbench.v
+FC:/Users/Andrei/Documents/CID/COLOCVIUL 1/testbench.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1589374989.479000
+!s107 C:/Users/Andrei/Documents/CID/COLOCVIUL 1/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL 1|C:/Users/Andrei/Documents/CID/COLOCVIUL 1/testbench.v|
+!i113 1
+R4
+R5
+vtop
+R1
+!i10b 1
+!s100 ie?^>[<9bSJ0QCm<o>1o42
+IR[I<bN9YAXoDjBo<zN`ig3
+R2
+R0
+w1589374821
+8C:/Users/Andrei/Documents/CID/COLOCVIUL 1/top.v
+FC:/Users/Andrei/Documents/CID/COLOCVIUL 1/top.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589374989.846000
+!s107 C:/Users/Andrei/Documents/CID/COLOCVIUL 1/top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL 1|C:/Users/Andrei/Documents/CID/COLOCVIUL 1/top.v|
+!i113 1
+R4
+R5
+vtranscodor
+R1
+!i10b 1
+!s100 5<QGYVBI8o5^7H;iXDWRS2
+I>:`X[0@01V1iRgS7`7;A@0
+R2
+R0
+w1589374696
+8C:/Users/Andrei/Documents/CID/COLOCVIUL 1/transcodor.v
+FC:/Users/Andrei/Documents/CID/COLOCVIUL 1/transcodor.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589374989.758000
+!s107 C:/Users/Andrei/Documents/CID/COLOCVIUL 1/transcodor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL 1|C:/Users/Andrei/Documents/CID/COLOCVIUL 1/transcodor.v|
+!i113 1
+R4
+R5

@@ -1,0 +1,81 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do testbench_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ lab\ 2 {C:/Users/Andrei/Documents/CID/tema lab 2/testbench.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 17:15:11 on Apr 15,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema lab 2" C:/Users/Andrei/Documents/CID/tema lab 2/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 17:15:11 on Apr 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ lab\ 2 {C:/Users/Andrei/Documents/CID/tema lab 2/COUNTER.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 17:15:11 on Apr 15,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema lab 2" C:/Users/Andrei/Documents/CID/tema lab 2/COUNTER.v 
+# -- Compiling module COUNTER
+# 
+# Top level modules:
+# 	COUNTER
+# End time: 17:15:11 on Apr 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ lab\ 2 {C:/Users/Andrei/Documents/CID/tema lab 2/ROM.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 17:15:11 on Apr 15,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema lab 2" C:/Users/Andrei/Documents/CID/tema lab 2/ROM.v 
+# -- Compiling module ROM
+# 
+# Top level modules:
+# 	ROM
+# End time: 17:15:11 on Apr 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ lab\ 2 {C:/Users/Andrei/Documents/CID/tema lab 2/RAM.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 17:15:11 on Apr 15,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema lab 2" C:/Users/Andrei/Documents/CID/tema lab 2/RAM.v 
+# -- Compiling module RAM
+# 
+# Top level modules:
+# 	RAM
+# End time: 17:15:11 on Apr 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ lab\ 2 {C:/Users/Andrei/Documents/CID/tema lab 2/TOP.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 17:15:11 on Apr 15,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema lab 2" C:/Users/Andrei/Documents/CID/tema lab 2/TOP.v 
+# -- Compiling module TOP
+# 
+# Top level modules:
+# 	TOP
+# End time: 17:15:11 on Apr 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.testbench
+# vsim -gui "+altera" -l msim_transcript -do "testbench_run_msim_rtl_verilog.do" 
+# Start time: 17:15:45 on Apr 15,2020
+# Loading work.testbench
+# Loading work.TOP
+# Loading work.COUNTER
+# Loading work.RAM
+# Loading work.ROM
+add wave -position end  sim:/testbench/ADR
+add wave -position end  sim:/testbench/WEN
+add wave -position end  sim:/testbench/DIN
+add wave -position end  sim:/testbench/CLK
+add wave -position end  sim:/testbench/DOUT
+run -all
+# End time: 17:18:29 on Apr 15,2020, Elapsed time: 0:02:44
+# Errors: 0, Warnings: 0

@@ -1,0 +1,12 @@
+module CG5(input cgin, input cgclock, input cgnrst, output wire cgout);
+	wire w1;
+	wire w2;
+	wire w3;
+	wire w4;
+	wire w5;
+	wire w6;
+	wire w7;
+	
+	XOR1 XOR11(.xin0(cgin),.xin1(cgout),.xout(w1));
+	FF FF1(.ffin(w1),.ffclk(fgclock),.ffrst(!cgnrst),.ffout(w2));
+endmodule

@@ -1,0 +1,4 @@
+module dispozitiv(input A, input B, input C, output Q);
+	
+
+endmodule

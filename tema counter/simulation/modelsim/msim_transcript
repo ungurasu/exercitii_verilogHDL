@@ -1,0 +1,74 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do testbench_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ counter {C:/Users/Andrei/Documents/CID/tema counter/testbench.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 17:03:20 on Apr 22,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema counter" C:/Users/Andrei/Documents/CID/tema counter/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 17:03:20 on Apr 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ counter {C:/Users/Andrei/Documents/CID/tema counter/memorie.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 17:03:20 on Apr 22,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema counter" C:/Users/Andrei/Documents/CID/tema counter/memorie.v 
+# -- Compiling module memorie
+# 
+# Top level modules:
+# 	memorie
+# End time: 17:03:20 on Apr 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ counter {C:/Users/Andrei/Documents/CID/tema counter/counter.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 17:03:20 on Apr 22,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema counter" C:/Users/Andrei/Documents/CID/tema counter/counter.v 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 17:03:20 on Apr 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ counter {C:/Users/Andrei/Documents/CID/tema counter/TOP.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 17:03:20 on Apr 22,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema counter" C:/Users/Andrei/Documents/CID/tema counter/TOP.v 
+# -- Compiling module TOP
+# 
+# Top level modules:
+# 	TOP
+# End time: 17:03:20 on Apr 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.testbench
+# vsim -gui "+altera" -l msim_transcript -do "testbench_run_msim_rtl_verilog.do" 
+# Start time: 17:03:28 on Apr 22,2020
+# Loading work.testbench
+# Loading work.TOP
+# Loading work.memorie
+# Loading work.counter
+add wave -position end  sim:/testbench/clk
+add wave -position end  sim:/testbench/value
+add wave -position end  sim:/testbench/adr
+add wave -position end  sim:/testbench/we
+add wave -position end  sim:/testbench/rst_sync
+add wave -position end  sim:/testbench/updown
+add wave -position end  sim:/testbench/load
+add wave -position end  sim:/testbench/out
+add wave -position end  sim:/testbench/enable
+run -all
+# End time: 17:06:32 on Apr 22,2020, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 0

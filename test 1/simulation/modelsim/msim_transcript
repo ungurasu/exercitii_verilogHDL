@@ -1,0 +1,127 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do tb_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/test\ 1\ betty {C:/Users/Andrei/Documents/CID/test 1 betty/tb.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 12:25:58 on May 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/test 1 betty" C:/Users/Andrei/Documents/CID/test 1 betty/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:25:58 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/test\ 1\ betty {C:/Users/Andrei/Documents/CID/test 1 betty/OVERFLOW_ADD.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 12:25:58 on May 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/test 1 betty" C:/Users/Andrei/Documents/CID/test 1 betty/OVERFLOW_ADD.v 
+# -- Compiling module OVERFLOW_ADD
+# 
+# Top level modules:
+# 	OVERFLOW_ADD
+# End time: 12:25:58 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/test\ 1\ betty {C:/Users/Andrei/Documents/CID/test 1 betty/EQ.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 12:25:58 on May 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/test 1 betty" C:/Users/Andrei/Documents/CID/test 1 betty/EQ.v 
+# -- Compiling module EQ
+# 
+# Top level modules:
+# 	EQ
+# End time: 12:25:58 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/test\ 1\ betty {C:/Users/Andrei/Documents/CID/test 1 betty/ADDER.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 12:25:58 on May 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/test 1 betty" C:/Users/Andrei/Documents/CID/test 1 betty/ADDER.v 
+# -- Compiling module ADDER
+# 
+# Top level modules:
+# 	ADDER
+# End time: 12:25:58 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/test\ 1\ betty {C:/Users/Andrei/Documents/CID/test 1 betty/MUX2.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 12:25:58 on May 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/test 1 betty" C:/Users/Andrei/Documents/CID/test 1 betty/MUX2.v 
+# -- Compiling module MUX2
+# 
+# Top level modules:
+# 	MUX2
+# End time: 12:25:58 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/test\ 1\ betty {C:/Users/Andrei/Documents/CID/test 1 betty/SPECIAL.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 12:25:58 on May 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/test 1 betty" C:/Users/Andrei/Documents/CID/test 1 betty/SPECIAL.v 
+# -- Compiling module SPECIAL
+# 
+# Top level modules:
+# 	SPECIAL
+# End time: 12:25:58 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/test\ 1\ betty {C:/Users/Andrei/Documents/CID/test 1 betty/DEMUX2.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 12:25:58 on May 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/test 1 betty" C:/Users/Andrei/Documents/CID/test 1 betty/DEMUX2.v 
+# -- Compiling module DEMUX2
+# 
+# Top level modules:
+# 	DEMUX2
+# End time: 12:25:58 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/test\ 1\ betty {C:/Users/Andrei/Documents/CID/test 1 betty/ROM.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 12:25:58 on May 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/test 1 betty" C:/Users/Andrei/Documents/CID/test 1 betty/ROM.v 
+# -- Compiling module ROM
+# 
+# Top level modules:
+# 	ROM
+# End time: 12:25:58 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/test\ 1\ betty {C:/Users/Andrei/Documents/CID/test 1 betty/TOP.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 12:25:58 on May 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/test 1 betty" C:/Users/Andrei/Documents/CID/test 1 betty/TOP.v 
+# -- Compiling module TOP
+# 
+# Top level modules:
+# 	TOP
+# End time: 12:25:58 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.tb
+# vsim -gui "+altera" -l msim_transcript -do "tb_run_msim_rtl_verilog.do" 
+# Start time: 12:26:04 on May 13,2020
+# Loading work.tb
+# Loading work.TOP
+# Loading work.ADDER
+# Loading work.ROM
+# Loading work.EQ
+# Loading work.MUX2
+# Loading work.OVERFLOW_ADD
+# Loading work.SPECIAL
+# Loading work.DEMUX2
+add wave -position end  sim:/tb/data0
+add wave -position end  sim:/tb/data1
+add wave -position end  sim:/tb/out0
+add wave -position end  sim:/tb/out1
+add wave -position end  sim:/tb/instruction
+add wave -position end  sim:/tb/instr_out
+add wave -position end  sim:/tb/ok
+add wave -position end  sim:/tb/ovf
+# End time: 14:25:04 on May 13,2020, Elapsed time: 1:59:00
+# Errors: 0, Warnings: 0

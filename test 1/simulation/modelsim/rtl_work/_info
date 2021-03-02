@@ -1,0 +1,207 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Andrei/Documents/CID/test 1 betty/simulation/modelsim
+vADDER
+Z1 !s110 1589361958
+!i10b 1
+!s100 NgBYBi11e^znPG7YRVL]P1
+I2H6HmZQ3bBblSfP`^V>[G1
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1589286959
+8C:/Users/Andrei/Documents/CID/test 1 betty/ADDER.v
+FC:/Users/Andrei/Documents/CID/test 1 betty/ADDER.v
+L0 1
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1589361958.405000
+!s107 C:/Users/Andrei/Documents/CID/test 1 betty/ADDER.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/test 1 betty|C:/Users/Andrei/Documents/CID/test 1 betty/ADDER.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/Andrei/Documents/CID/test 1 betty}
+n@a@d@d@e@r
+vDEMUX2
+R1
+!i10b 1
+!s100 T8;6GHH`G6Zl]RajbXOag2
+IIbiUMgQRWXm=dF[e>3eob2
+R2
+R0
+w1589287438
+8C:/Users/Andrei/Documents/CID/test 1 betty/DEMUX2.v
+FC:/Users/Andrei/Documents/CID/test 1 betty/DEMUX2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589361958.537000
+!s107 C:/Users/Andrei/Documents/CID/test 1 betty/DEMUX2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/test 1 betty|C:/Users/Andrei/Documents/CID/test 1 betty/DEMUX2.v|
+!i113 1
+R4
+R5
+n@d@e@m@u@x2
+vEQ
+R1
+!i10b 1
+!s100 hKFoL@C?F8eG@g6E4a3?z2
+IlFbGI1f]8j0cVBoI6dCQ12
+R2
+R0
+w1589286936
+8C:/Users/Andrei/Documents/CID/test 1 betty/EQ.v
+FC:/Users/Andrei/Documents/CID/test 1 betty/EQ.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589361958.363000
+!s107 C:/Users/Andrei/Documents/CID/test 1 betty/EQ.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/test 1 betty|C:/Users/Andrei/Documents/CID/test 1 betty/EQ.v|
+!i113 1
+R4
+R5
+n@e@q
+vMUX2
+R1
+!i10b 1
+!s100 2E3MA`3GTGk0i6U4DCWb61
+Imb0i9iOz8g?6BK@cS_BTH0
+R2
+R0
+w1589287043
+8C:/Users/Andrei/Documents/CID/test 1 betty/MUX2.v
+FC:/Users/Andrei/Documents/CID/test 1 betty/MUX2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589361958.448000
+!s107 C:/Users/Andrei/Documents/CID/test 1 betty/MUX2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/test 1 betty|C:/Users/Andrei/Documents/CID/test 1 betty/MUX2.v|
+!i113 1
+R4
+R5
+n@m@u@x2
+vOVERFLOW_ADD
+R1
+!i10b 1
+!s100 B:jXao8KL3^[iQ<aK64Sz1
+IBn7G?DjLP8@8L>@0>boR31
+R2
+R0
+w1589287111
+8C:/Users/Andrei/Documents/CID/test 1 betty/OVERFLOW_ADD.v
+FC:/Users/Andrei/Documents/CID/test 1 betty/OVERFLOW_ADD.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589361958.320000
+!s107 C:/Users/Andrei/Documents/CID/test 1 betty/OVERFLOW_ADD.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/test 1 betty|C:/Users/Andrei/Documents/CID/test 1 betty/OVERFLOW_ADD.v|
+!i113 1
+R4
+R5
+n@o@v@e@r@f@l@o@w_@a@d@d
+vROM
+R1
+!i10b 1
+!s100 o46T_`b:PZji7291j^_CC0
+IZ`[>8c?;Nn:eMCl=;7Vc<0
+R2
+R0
+w1589290945
+8C:/Users/Andrei/Documents/CID/test 1 betty/ROM.v
+FC:/Users/Andrei/Documents/CID/test 1 betty/ROM.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589361958.581000
+!s107 C:/Users/Andrei/Documents/CID/test 1 betty/ROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/test 1 betty|C:/Users/Andrei/Documents/CID/test 1 betty/ROM.v|
+!i113 1
+R4
+R5
+n@r@o@m
+vSPECIAL
+R1
+!i10b 1
+!s100 J_QeD]=LSR4PlT40UJUX]1
+I:0aW]jEkffS;j>VC<O[6m1
+R2
+R0
+w1589287267
+8C:/Users/Andrei/Documents/CID/test 1 betty/SPECIAL.v
+FC:/Users/Andrei/Documents/CID/test 1 betty/SPECIAL.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589361958.494000
+!s107 C:/Users/Andrei/Documents/CID/test 1 betty/SPECIAL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/test 1 betty|C:/Users/Andrei/Documents/CID/test 1 betty/SPECIAL.v|
+!i113 1
+R4
+R5
+n@s@p@e@c@i@a@l
+vtb
+R1
+!i10b 1
+!s100 P6bKHO4o0mFHM[mROe7G73
+I[oGNfd^A>;34d^=gEb^BZ0
+R2
+R0
+w1589291529
+8C:/Users/Andrei/Documents/CID/test 1 betty/tb.v
+FC:/Users/Andrei/Documents/CID/test 1 betty/tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1589361958.221000
+!s107 C:/Users/Andrei/Documents/CID/test 1 betty/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/test 1 betty|C:/Users/Andrei/Documents/CID/test 1 betty/tb.v|
+!i113 1
+R4
+R5
+vTOP
+R1
+!i10b 1
+!s100 BSdc>0b<F:[Q[GzWiH=Vo3
+IOFfDYYea]H]=;6NFWC7DD0
+R2
+R0
+w1589289875
+8C:/Users/Andrei/Documents/CID/test 1 betty/TOP.v
+FC:/Users/Andrei/Documents/CID/test 1 betty/TOP.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589361958.624000
+!s107 C:/Users/Andrei/Documents/CID/test 1 betty/TOP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/test 1 betty|C:/Users/Andrei/Documents/CID/test 1 betty/TOP.v|
+!i113 1
+R4
+R5
+n@t@o@p

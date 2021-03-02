@@ -1,0 +1,3 @@
+module (input updown, input cck, input[3:0] datain, input ept, input cclr, input rck, input rcsel, input g, input load, output reg[3:0] dataout, input rco, input gnd, input vcc);
+
+endmodule

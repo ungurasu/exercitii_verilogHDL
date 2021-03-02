@@ -1,0 +1,95 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Andrei/Documents/CID/tema counter/simulation/modelsim
+vcounter
+Z1 !s110 1587564200
+!i10b 1
+!s100 IZk8HQEm=^K]Zc8i8k]LE2
+ICJS>64VCP;B>jF]]?Q3i83
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1587561402
+8C:/Users/Andrei/Documents/CID/tema counter/counter.v
+FC:/Users/Andrei/Documents/CID/tema counter/counter.v
+L0 1
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1587564200.885000
+!s107 C:/Users/Andrei/Documents/CID/tema counter/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema counter|C:/Users/Andrei/Documents/CID/tema counter/counter.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/Andrei/Documents/CID/tema counter}
+vmemorie
+R1
+!i10b 1
+!s100 34]kk?JYF[7nV?e35cdZa2
+IhUBm>hcl8RSH36VTGHmUb0
+R2
+R0
+w1587561710
+8C:/Users/Andrei/Documents/CID/tema counter/memorie.v
+FC:/Users/Andrei/Documents/CID/tema counter/memorie.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1587564200.842000
+!s107 C:/Users/Andrei/Documents/CID/tema counter/memorie.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema counter|C:/Users/Andrei/Documents/CID/tema counter/memorie.v|
+!i113 1
+R4
+R5
+vtestbench
+R1
+!i10b 1
+!s100 YdM9K3YQA@?o;HA6nDQGQ2
+Ioo;z?z>KOiRF]>17k@ibf0
+R2
+R0
+w1587564177
+8C:/Users/Andrei/Documents/CID/tema counter/testbench.v
+FC:/Users/Andrei/Documents/CID/tema counter/testbench.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1587564200.794000
+!s107 C:/Users/Andrei/Documents/CID/tema counter/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema counter|C:/Users/Andrei/Documents/CID/tema counter/testbench.v|
+!i113 1
+R4
+R5
+vTOP
+R1
+!i10b 1
+!s100 hGh5>;UD1daTg:S>7<`CL3
+IWD_fm_9PMDRUcRIJWgnn?2
+R2
+R0
+w1587561575
+8C:/Users/Andrei/Documents/CID/tema counter/TOP.v
+FC:/Users/Andrei/Documents/CID/tema counter/TOP.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1587564200.928000
+!s107 C:/Users/Andrei/Documents/CID/tema counter/TOP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema counter|C:/Users/Andrei/Documents/CID/tema counter/TOP.v|
+!i113 1
+R4
+R5
+n@t@o@p

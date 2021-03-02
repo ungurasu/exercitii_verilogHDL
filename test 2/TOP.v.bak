@@ -1,0 +1,5 @@
+module top(input[3:0] top_in, input top_nrst, input top_clk, output[7:0] top_out);
+	wire[3:0] cout;
+	wire[3:0] xout;
+	wire[3:0] romout;
+endmodule

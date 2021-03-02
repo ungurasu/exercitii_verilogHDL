@@ -1,0 +1,10 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200402 {C:/Users/Andrei/Documents/CID/tema 20200402/top.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200402 {C:/Users/Andrei/Documents/CID/tema 20200402/dcd_2_to_4.v}
+

@@ -1,0 +1,149 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do top_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200402 {C:/Users/Andrei/Documents/CID/tema 20200402/top.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 10:57:27 on Mar 29,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200402" C:/Users/Andrei/Documents/CID/tema 20200402/top.v 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 10:57:27 on Mar 29,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200402 {C:/Users/Andrei/Documents/CID/tema 20200402/dcd_2_to_4.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 10:57:27 on Mar 29,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200402" C:/Users/Andrei/Documents/CID/tema 20200402/dcd_2_to_4.v 
+# -- Compiling module dcd_2_to_4
+# 
+# Top level modules:
+# 	dcd_2_to_4
+# End time: 10:57:27 on Mar 29,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200402 {C:/Users/Andrei/Documents/CID/tema 20200402/dcd_3_to_8.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 10:57:27 on Mar 29,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200402" C:/Users/Andrei/Documents/CID/tema 20200402/dcd_3_to_8.v 
+# -- Compiling module dcd_3_to_8
+# 
+# Top level modules:
+# 	dcd_3_to_8
+# End time: 10:57:27 on Mar 29,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200402 {C:/Users/Andrei/Documents/CID/tema 20200402/dcd_4_to_16.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 10:57:27 on Mar 29,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200402" C:/Users/Andrei/Documents/CID/tema 20200402/dcd_4_to_16.v 
+# -- Compiling module dcd_4_to_16
+# 
+# Top level modules:
+# 	dcd_4_to_16
+# End time: 10:57:27 on Mar 29,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200402 {C:/Users/Andrei/Documents/CID/tema 20200402/mux_4_to_1.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 10:57:27 on Mar 29,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200402" C:/Users/Andrei/Documents/CID/tema 20200402/mux_4_to_1.v 
+# -- Compiling module mux_4_to_1
+# 
+# Top level modules:
+# 	mux_4_to_1
+# End time: 10:57:27 on Mar 29,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200402 {C:/Users/Andrei/Documents/CID/tema 20200402/mux_8_to_1.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 10:57:27 on Mar 29,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200402" C:/Users/Andrei/Documents/CID/tema 20200402/mux_8_to_1.v 
+# -- Compiling module mux_8_to_1
+# 
+# Top level modules:
+# 	mux_8_to_1
+# End time: 10:57:27 on Mar 29,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200402 {C:/Users/Andrei/Documents/CID/tema 20200402/dmux_2_to_4.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 10:57:27 on Mar 29,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200402" C:/Users/Andrei/Documents/CID/tema 20200402/dmux_2_to_4.v 
+# -- Compiling module dmux_2_to_4
+# 
+# Top level modules:
+# 	dmux_2_to_4
+# End time: 10:57:27 on Mar 29,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200402 {C:/Users/Andrei/Documents/CID/tema 20200402/dmux_3_to_8.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 10:57:27 on Mar 29,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200402" C:/Users/Andrei/Documents/CID/tema 20200402/dmux_3_to_8.v 
+# -- Compiling module dmux_3_to_8
+# 
+# Top level modules:
+# 	dmux_3_to_8
+# End time: 10:57:28 on Mar 29,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200402 {C:/Users/Andrei/Documents/CID/tema 20200402/sumatorelem.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 10:57:28 on Mar 29,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200402" C:/Users/Andrei/Documents/CID/tema 20200402/sumatorelem.v 
+# -- Compiling module sumatorelem
+# 
+# Top level modules:
+# 	sumatorelem
+# End time: 10:57:28 on Mar 29,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200402 {C:/Users/Andrei/Documents/CID/tema 20200402/adder_4_with_4.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 10:57:28 on Mar 29,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200402" C:/Users/Andrei/Documents/CID/tema 20200402/adder_4_with_4.v 
+# -- Compiling module adder_4_with_4
+# 
+# Top level modules:
+# 	adder_4_with_4
+# End time: 10:57:28 on Mar 29,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200402 {C:/Users/Andrei/Documents/CID/tema 20200402/adder_8_with_8.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 10:57:28 on Mar 29,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200402" C:/Users/Andrei/Documents/CID/tema 20200402/adder_8_with_8.v 
+# -- Compiling module adder_8_with_8
+# 
+# Top level modules:
+# 	adder_8_with_8
+# End time: 10:57:28 on Mar 29,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.top
+# vsim -gui "+altera" -l msim_transcript -do "top_run_msim_rtl_verilog.do" 
+# Start time: 10:57:32 on Mar 29,2020
+# Loading work.top
+# Loading work.dcd_4_to_16
+# Loading work.dcd_3_to_8
+# Loading work.dcd_2_to_4
+# Loading work.mux_8_to_1
+# Loading work.mux_4_to_1
+# Loading work.dmux_3_to_8
+# Loading work.dmux_2_to_4
+# Loading work.adder_8_with_8
+# Loading work.adder_4_with_4
+# Loading work.sumatorelem
+add wave -position end  sim:/top/in1add
+add wave -position end  sim:/top/in2add
+add wave -position end  sim:/top/ciadd
+add wave -position end  sim:/top/outadd
+run -all
+# ** Note: $stop    : C:/Users/Andrei/Documents/CID/tema 20200402/top.v(197)
+#    Time: 1160 ps  Iteration: 0  Instance: /top
+# Break in Module top at C:/Users/Andrei/Documents/CID/tema 20200402/top.v line 197
+# End time: 10:59:29 on Mar 29,2020, Elapsed time: 0:01:57
+# Errors: 0, Warnings: 0

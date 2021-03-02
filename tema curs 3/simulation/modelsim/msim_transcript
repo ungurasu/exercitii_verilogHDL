@@ -1,0 +1,61 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do testbench_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ curs\ 3 {C:/Users/Andrei/Documents/CID/tema curs 3/testbench.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 14:21:00 on Apr 11,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema curs 3" C:/Users/Andrei/Documents/CID/tema curs 3/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 14:21:00 on Apr 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ curs\ 3 {C:/Users/Andrei/Documents/CID/tema curs 3/circuit1.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 14:21:00 on Apr 11,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema curs 3" C:/Users/Andrei/Documents/CID/tema curs 3/circuit1.v 
+# -- Compiling module circuit1
+# 
+# Top level modules:
+# 	circuit1
+# End time: 14:21:00 on Apr 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ curs\ 3 {C:/Users/Andrei/Documents/CID/tema curs 3/circuit2.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 14:21:00 on Apr 11,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema curs 3" C:/Users/Andrei/Documents/CID/tema curs 3/circuit2.v 
+# -- Compiling module circuit2
+# 
+# Top level modules:
+# 	circuit2
+# End time: 14:21:00 on Apr 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.testbench
+# vsim -gui "+altera" -l msim_transcript -do "testbench_run_msim_rtl_verilog.do" 
+# Start time: 14:21:05 on Apr 11,2020
+# Loading work.testbench
+# Loading work.circuit1
+# Loading work.circuit2
+add wave -position end  sim:/testbench/a
+add wave -position end  sim:/testbench/reset
+add wave -position end  sim:/testbench/clock
+add wave -position end  sim:/testbench/b1
+add wave -position end  sim:/testbench/c1
+add wave -position end  sim:/testbench/b2
+add wave -position end  sim:/testbench/c2
+run -all
+# End time: 14:38:29 on Apr 11,2020, Elapsed time: 0:17:24
+# Errors: 0, Warnings: 0

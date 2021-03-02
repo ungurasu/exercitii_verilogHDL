@@ -1,0 +1,152 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do bancadetestare_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200401\ lab {C:/Users/Andrei/Documents/CID/tema 20200401 lab/toptema.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:50:21 on Apr 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab" C:/Users/Andrei/Documents/CID/tema 20200401 lab/toptema.v 
+# -- Compiling module toptema
+# 
+# Top level modules:
+# 	toptema
+# End time: 16:50:21 on Apr 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200401\ lab {C:/Users/Andrei/Documents/CID/tema 20200401 lab/ALUtema.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:50:21 on Apr 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab" C:/Users/Andrei/Documents/CID/tema 20200401 lab/ALUtema.v 
+# -- Compiling module ALUtema
+# 
+# Top level modules:
+# 	ALUtema
+# End time: 16:50:21 on Apr 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200401\ lab {C:/Users/Andrei/Documents/CID/tema 20200401 lab/sumatorelem.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:50:21 on Apr 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab" C:/Users/Andrei/Documents/CID/tema 20200401 lab/sumatorelem.v 
+# -- Compiling module sumatorelemen
+# 
+# Top level modules:
+# 	sumatorelemen
+# End time: 16:50:21 on Apr 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200401\ lab {C:/Users/Andrei/Documents/CID/tema 20200401 lab/FULLADDERtema.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:50:21 on Apr 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab" C:/Users/Andrei/Documents/CID/tema 20200401 lab/FULLADDERtema.v 
+# -- Compiling module FULLADDERtema
+# 
+# Top level modules:
+# 	FULLADDERtema
+# End time: 16:50:21 on Apr 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200401\ lab {C:/Users/Andrei/Documents/CID/tema 20200401 lab/sumator.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:50:21 on Apr 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab" C:/Users/Andrei/Documents/CID/tema 20200401 lab/sumator.v 
+# -- Compiling module sumator
+# 
+# Top level modules:
+# 	sumator
+# End time: 16:50:21 on Apr 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200401\ lab {C:/Users/Andrei/Documents/CID/tema 20200401 lab/MUX21tema.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:50:21 on Apr 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab" C:/Users/Andrei/Documents/CID/tema 20200401 lab/MUX21tema.v 
+# -- Compiling module MUX21tema
+# 
+# Top level modules:
+# 	MUX21tema
+# End time: 16:50:21 on Apr 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200401\ lab {C:/Users/Andrei/Documents/CID/tema 20200401 lab/MUX41tema.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:50:21 on Apr 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab" C:/Users/Andrei/Documents/CID/tema 20200401 lab/MUX41tema.v 
+# -- Compiling module MUX41tema
+# 
+# Top level modules:
+# 	MUX41tema
+# End time: 16:50:21 on Apr 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200401\ lab {C:/Users/Andrei/Documents/CID/tema 20200401 lab/ANDtema.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:50:21 on Apr 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab" C:/Users/Andrei/Documents/CID/tema 20200401 lab/ANDtema.v 
+# -- Compiling module ANDtema
+# 
+# Top level modules:
+# 	ANDtema
+# End time: 16:50:22 on Apr 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200401\ lab {C:/Users/Andrei/Documents/CID/tema 20200401 lab/ORtema.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:50:22 on Apr 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab" C:/Users/Andrei/Documents/CID/tema 20200401 lab/ORtema.v 
+# -- Compiling module ORtema
+# 
+# Top level modules:
+# 	ORtema
+# End time: 16:50:22 on Apr 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200401\ lab {C:/Users/Andrei/Documents/CID/tema 20200401 lab/NOTtema.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:50:22 on Apr 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab" C:/Users/Andrei/Documents/CID/tema 20200401 lab/NOTtema.v 
+# -- Compiling module NOTtema
+# 
+# Top level modules:
+# 	NOTtema
+# End time: 16:50:22 on Apr 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200401\ lab {C:/Users/Andrei/Documents/CID/tema 20200401 lab/NANDtema.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:50:22 on Apr 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab" C:/Users/Andrei/Documents/CID/tema 20200401 lab/NANDtema.v 
+# -- Compiling module NANDtema
+# 
+# Top level modules:
+# 	NANDtema
+# End time: 16:50:22 on Apr 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200401\ lab {C:/Users/Andrei/Documents/CID/tema 20200401 lab/NORtema.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:50:22 on Apr 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab" C:/Users/Andrei/Documents/CID/tema 20200401 lab/NORtema.v 
+# -- Compiling module NORtema
+# 
+# Top level modules:
+# 	NORtema
+# End time: 16:50:22 on Apr 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/tema\ 20200401\ lab {C:/Users/Andrei/Documents/CID/tema 20200401 lab/XNORtema.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:50:22 on Apr 08,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab" C:/Users/Andrei/Documents/CID/tema 20200401 lab/XNORtema.v 
+# -- Compiling module XNORtema
+# 
+# Top level modules:
+# 	XNORtema
+# End time: 16:50:22 on Apr 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.ALUtema
+# vsim -gui "+altera" -l msim_transcript -do "bancadetestare_run_msim_rtl_verilog.do" 
+# Start time: 16:50:50 on Apr 08,2020
+# Loading work.ALUtema
+add wave -position end  sim:/ALUtema/in1
+# End time: 17:09:10 on Apr 08,2020, Elapsed time: 0:18:20
+# Errors: 0, Warnings: 0

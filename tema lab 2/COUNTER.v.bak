@@ -1,0 +1,7 @@
+module COUNTER(
+ input clk,
+ output reg [31:0] cnt
+);
+initial cnt <= 0;
+always @(posedge clk) cnt <= cnt + 1;
+endmodule

@@ -1,0 +1,241 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Andrei/Documents/CID/tema 20200402/simulation/modelsim
+vadder_4_with_4
+Z1 !s110 1585468648
+!i10b 1
+!s100 YEnA@bjkQ8_UVKbjV<SI23
+IRb?=4@0ZnZ:lZ38d^SaC70
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1585465179
+8C:/Users/Andrei/Documents/CID/tema 20200402/adder_4_with_4.v
+FC:/Users/Andrei/Documents/CID/tema 20200402/adder_4_with_4.v
+L0 1
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1585468648.081000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200402/adder_4_with_4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200402|C:/Users/Andrei/Documents/CID/tema 20200402/adder_4_with_4.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/Andrei/Documents/CID/tema 20200402}
+vadder_8_with_8
+R1
+!i10b 1
+!s100 B_Ozkga<jSZDI;mTc1X9Q0
+Ik]QPDW;cI@RhI7m3G4A<i2
+R2
+R0
+w1585466333
+8C:/Users/Andrei/Documents/CID/tema 20200402/adder_8_with_8.v
+FC:/Users/Andrei/Documents/CID/tema 20200402/adder_8_with_8.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1585468648.124000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200402/adder_8_with_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200402|C:/Users/Andrei/Documents/CID/tema 20200402/adder_8_with_8.v|
+!i113 1
+R4
+R5
+vdcd_2_to_4
+Z6 !s110 1585468647
+!i10b 1
+!s100 Ml?RjGWg8O]U1MHN_7=Yo3
+Izie=NzW7L]G<cGWgN0b5^2
+R2
+R0
+w1585432829
+8C:/Users/Andrei/Documents/CID/tema 20200402/dcd_2_to_4.v
+FC:/Users/Andrei/Documents/CID/tema 20200402/dcd_2_to_4.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1585468647.719000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200402/dcd_2_to_4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200402|C:/Users/Andrei/Documents/CID/tema 20200402/dcd_2_to_4.v|
+!i113 1
+R4
+R5
+vdcd_3_to_8
+R6
+!i10b 1
+!s100 e324iI^TQASFEUCTX:6<:3
+ImPVS9:ZFBbYRFhn_0SJAF1
+R2
+R0
+w1585434473
+8C:/Users/Andrei/Documents/CID/tema 20200402/dcd_3_to_8.v
+FC:/Users/Andrei/Documents/CID/tema 20200402/dcd_3_to_8.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1585468647.764000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200402/dcd_3_to_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200402|C:/Users/Andrei/Documents/CID/tema 20200402/dcd_3_to_8.v|
+!i113 1
+R4
+R5
+vdcd_4_to_16
+R6
+!i10b 1
+!s100 c4acIjFNT_ea0RFHSh9g`2
+IXM45g=R1d`F9TT:9^6VkG2
+R2
+R0
+w1585435085
+8C:/Users/Andrei/Documents/CID/tema 20200402/dcd_4_to_16.v
+FC:/Users/Andrei/Documents/CID/tema 20200402/dcd_4_to_16.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1585468647.807000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200402/dcd_4_to_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200402|C:/Users/Andrei/Documents/CID/tema 20200402/dcd_4_to_16.v|
+!i113 1
+R4
+R5
+vdmux_2_to_4
+R6
+!i10b 1
+!s100 zgnFc_O9^P5goPbBR0Xl23
+ICGKWlgYl:2bhl2SER<JI]1
+R2
+R0
+w1585439221
+8C:/Users/Andrei/Documents/CID/tema 20200402/dmux_2_to_4.v
+FC:/Users/Andrei/Documents/CID/tema 20200402/dmux_2_to_4.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1585468647.950000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200402/dmux_2_to_4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200402|C:/Users/Andrei/Documents/CID/tema 20200402/dmux_2_to_4.v|
+!i113 1
+R4
+R5
+vdmux_3_to_8
+R1
+!i10b 1
+!s100 ENm`gil_YMgZNXkL7@L6D0
+I4S]H9[WY701g4ATM2JlOC3
+R2
+R0
+w1585440549
+8C:/Users/Andrei/Documents/CID/tema 20200402/dmux_3_to_8.v
+FC:/Users/Andrei/Documents/CID/tema 20200402/dmux_3_to_8.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1585468647.998000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200402/dmux_3_to_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200402|C:/Users/Andrei/Documents/CID/tema 20200402/dmux_3_to_8.v|
+!i113 1
+R4
+R5
+vmux_4_to_1
+R6
+!i10b 1
+!s100 bHI:QDGDi=7j3a_GP@2hi3
+ImQg]iR;=1zV@jROeDaTQd2
+R2
+R0
+w1585436548
+8C:/Users/Andrei/Documents/CID/tema 20200402/mux_4_to_1.v
+FC:/Users/Andrei/Documents/CID/tema 20200402/mux_4_to_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1585468647.867000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200402/mux_4_to_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200402|C:/Users/Andrei/Documents/CID/tema 20200402/mux_4_to_1.v|
+!i113 1
+R4
+R5
+vmux_8_to_1
+R6
+!i10b 1
+!s100 9@=e5RnhKMV74?0mYaPb?0
+IY<3@WKZD[bLJ?9lamSd2I2
+R2
+R0
+w1585438427
+8C:/Users/Andrei/Documents/CID/tema 20200402/mux_8_to_1.v
+FC:/Users/Andrei/Documents/CID/tema 20200402/mux_8_to_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1585468647.908000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200402/mux_8_to_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200402|C:/Users/Andrei/Documents/CID/tema 20200402/mux_8_to_1.v|
+!i113 1
+R4
+R5
+vsumatorelem
+R1
+!i10b 1
+!s100 =Lh_g1>]AI5ai?]M3S@k:0
+I0?Tm=GRMom[;AYXio1MZV1
+R2
+R0
+w1585462747
+8C:/Users/Andrei/Documents/CID/tema 20200402/sumatorelem.v
+FC:/Users/Andrei/Documents/CID/tema 20200402/sumatorelem.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1585468648.039000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200402/sumatorelem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200402|C:/Users/Andrei/Documents/CID/tema 20200402/sumatorelem.v|
+!i113 1
+R4
+R5
+vtop
+R6
+!i10b 1
+!s100 hm<TYnZ9L:6R=aegM7mMY2
+I9b<jamLl^9zJBQR=F@YkD1
+R2
+R0
+w1585468625
+8C:/Users/Andrei/Documents/CID/tema 20200402/top.v
+FC:/Users/Andrei/Documents/CID/tema 20200402/top.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1585468647.670000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200402/top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200402|C:/Users/Andrei/Documents/CID/tema 20200402/top.v|
+!i113 1
+R4
+R5

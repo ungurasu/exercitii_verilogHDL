@@ -1,0 +1,119 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Andrei/Documents/CID/COLOCVIU 2/simulation/modelsim
+vALUt
+Z1 !s110 1589982631
+!i10b 1
+!s100 g__2ENAj6gJlf;YE4hi7J0
+InglkTXkFJ5U:SUz=1iJf_3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1589982582
+8C:/Users/Andrei/Documents/CID/COLOCVIU 2/ALUt.v
+FC:/Users/Andrei/Documents/CID/COLOCVIU 2/ALUt.v
+L0 1
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1589982631.223000
+!s107 C:/Users/Andrei/Documents/CID/COLOCVIU 2/ALUt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/COLOCVIU 2|C:/Users/Andrei/Documents/CID/COLOCVIU 2/ALUt.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/Andrei/Documents/CID/COLOCVIU 2}
+n@a@l@ut
+vMUXt
+R1
+!i10b 1
+!s100 935makL9[DdTKUhVhj6FL2
+IVG1z[azo>m;Lf631UIeN52
+R2
+R0
+w1589981199
+8C:/Users/Andrei/Documents/CID/COLOCVIU 2/MUXt.v
+FC:/Users/Andrei/Documents/CID/COLOCVIU 2/MUXt.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589982631.301000
+!s107 C:/Users/Andrei/Documents/CID/COLOCVIU 2/MUXt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/COLOCVIU 2|C:/Users/Andrei/Documents/CID/COLOCVIU 2/MUXt.v|
+!i113 1
+R4
+R5
+n@m@u@xt
+vRAMt
+R1
+!i10b 1
+!s100 lQoS2LK=5_No1DT]zV;@z0
+Io`gYECaTXRFg5F^S@eUYN1
+R2
+R0
+w1589977225
+8C:/Users/Andrei/Documents/CID/COLOCVIU 2/RAMt.v
+FC:/Users/Andrei/Documents/CID/COLOCVIU 2/RAMt.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589982631.179000
+!s107 C:/Users/Andrei/Documents/CID/COLOCVIU 2/RAMt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/COLOCVIU 2|C:/Users/Andrei/Documents/CID/COLOCVIU 2/RAMt.v|
+!i113 1
+R4
+R5
+n@r@a@mt
+vtestbench
+R1
+!i10b 1
+!s100 d?0ZEFZOXe24KNCAfC5hG1
+I71YfGK^0:YAkEE>g;@fGR2
+R2
+R0
+w1589980858
+8C:/Users/Andrei/Documents/CID/COLOCVIU 2/testbench.v
+FC:/Users/Andrei/Documents/CID/COLOCVIU 2/testbench.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1589982631.097000
+!s107 C:/Users/Andrei/Documents/CID/COLOCVIU 2/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/COLOCVIU 2|C:/Users/Andrei/Documents/CID/COLOCVIU 2/testbench.v|
+!i113 1
+R4
+R5
+vTOPt
+R1
+!i10b 1
+!s100 XRbd@X2J`FzC<K;TBMCi82
+Ik>l51mL;SAb42:1z9EQ@Y2
+R2
+R0
+w1589979983
+8C:/Users/Andrei/Documents/CID/COLOCVIU 2/TOPt.v
+FC:/Users/Andrei/Documents/CID/COLOCVIU 2/TOPt.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589982631.357000
+!s107 C:/Users/Andrei/Documents/CID/COLOCVIU 2/TOPt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/COLOCVIU 2|C:/Users/Andrei/Documents/CID/COLOCVIU 2/TOPt.v|
+!i113 1
+R4
+R5
+n@t@o@pt

@@ -1,0 +1,8 @@
+module adder_4_with_4(output [4:0]out, input [3:0]a, input [3:0]b, input carryin);
+	wire carry1;
+	wire carry2;
+	wire carry3;
+	wire carry4;
+	
+	sumatorelem DUT1(.in1(a[0]), .in2(b[0]), .carryin(carryin), .out(out[0]), .carryout(carry1));
+endmodule

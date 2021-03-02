@@ -1,0 +1,119 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Andrei/Documents/CID/tema lab 2/simulation/modelsim
+vCOUNTER
+Z1 !s110 1586960111
+!i10b 1
+!s100 7XcH2N47Ef:0H2Z1o@AD:2
+IBY=K^UmO>3?dNcF@C^K2U3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1586953279
+8C:/Users/Andrei/Documents/CID/tema lab 2/COUNTER.v
+FC:/Users/Andrei/Documents/CID/tema lab 2/COUNTER.v
+L0 1
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1586960111.366000
+!s107 C:/Users/Andrei/Documents/CID/tema lab 2/COUNTER.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema lab 2|C:/Users/Andrei/Documents/CID/tema lab 2/COUNTER.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/Andrei/Documents/CID/tema lab 2}
+n@c@o@u@n@t@e@r
+vRAM
+R1
+!i10b 1
+!s100 k9imZ0<lO:6hbfa0bXA3`2
+I5>98V;<288Th;@c7Vf8dO0
+R2
+R0
+w1586952797
+8C:/Users/Andrei/Documents/CID/tema lab 2/RAM.v
+FC:/Users/Andrei/Documents/CID/tema lab 2/RAM.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586960111.456000
+!s107 C:/Users/Andrei/Documents/CID/tema lab 2/RAM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema lab 2|C:/Users/Andrei/Documents/CID/tema lab 2/RAM.v|
+!i113 1
+R4
+R5
+n@r@a@m
+vROM
+R1
+!i10b 1
+!s100 @jKORliV4Wl6aF2DJ0gT70
+IeZM@N]ikhI0k]1>KzDjg50
+R2
+R0
+w1586866488
+8C:/Users/Andrei/Documents/CID/tema lab 2/ROM.v
+FC:/Users/Andrei/Documents/CID/tema lab 2/ROM.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586960111.410000
+!s107 C:/Users/Andrei/Documents/CID/tema lab 2/ROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema lab 2|C:/Users/Andrei/Documents/CID/tema lab 2/ROM.v|
+!i113 1
+R4
+R5
+n@r@o@m
+vtestbench
+R1
+!i10b 1
+!s100 V_jTJ_?Bm0TD6`g^F5DJm3
+I6L20`HaTiSXG;T^kLU:2c2
+R2
+R0
+w1586953382
+8C:/Users/Andrei/Documents/CID/tema lab 2/testbench.v
+FC:/Users/Andrei/Documents/CID/tema lab 2/testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586960111.313000
+!s107 C:/Users/Andrei/Documents/CID/tema lab 2/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema lab 2|C:/Users/Andrei/Documents/CID/tema lab 2/testbench.v|
+!i113 1
+R4
+R5
+vTOP
+R1
+!i10b 1
+!s100 2ldU2g19E45@BWIa0T>K60
+I8Nd6kKl=gH<2znMjMzT042
+R2
+R0
+w1586952996
+8C:/Users/Andrei/Documents/CID/tema lab 2/TOP.v
+FC:/Users/Andrei/Documents/CID/tema lab 2/TOP.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586960111.508000
+!s107 C:/Users/Andrei/Documents/CID/tema lab 2/TOP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema lab 2|C:/Users/Andrei/Documents/CID/tema lab 2/TOP.v|
+!i113 1
+R4
+R5
+n@t@o@p

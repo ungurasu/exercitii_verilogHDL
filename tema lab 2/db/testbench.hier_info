@@ -1,0 +1,89 @@
+|testbench
+
+
+|testbench|TOP:DUT1
+ADR[0] => ADR[0].IN1
+ADR[1] => ADR[1].IN1
+ADR[2] => ADR[2].IN1
+ADR[3] => ADR[3].IN1
+WEN => WEN.IN1
+DIN[0] => DIN[0].IN1
+DIN[1] => DIN[1].IN1
+DIN[2] => DIN[2].IN1
+DIN[3] => DIN[3].IN1
+CLK => CLK.IN2
+DOUT[0] <= ROM:DUT3.out
+DOUT[1] <= ROM:DUT3.out
+DOUT[2] <= ROM:DUT3.out
+DOUT[3] <= ROM:DUT3.out
+
+
+|testbench|TOP:DUT1|COUNTER:DUT1
+clk => cnt[0]~reg0.CLK
+clk => cnt[1]~reg0.CLK
+clk => cnt[2]~reg0.CLK
+clk => cnt[3]~reg0.CLK
+cnt[0] <= cnt[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cnt[1] <= cnt[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cnt[2] <= cnt[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cnt[3] <= cnt[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|testbench|TOP:DUT1|RAM:DUT2
+WR_ADDR[0] => memorie.waddr_a[0].DATAIN
+WR_ADDR[0] => memorie.WADDR
+WR_ADDR[1] => memorie.waddr_a[1].DATAIN
+WR_ADDR[1] => memorie.WADDR1
+WR_ADDR[2] => memorie.waddr_a[2].DATAIN
+WR_ADDR[2] => memorie.WADDR2
+WR_ADDR[3] => memorie.waddr_a[3].DATAIN
+WR_ADDR[3] => memorie.WADDR3
+WR_EN => memorie.we_a.DATAIN
+WR_EN => RD_DATA[0]~reg0.ENA
+WR_EN => RD_DATA[1]~reg0.ENA
+WR_EN => RD_DATA[2]~reg0.ENA
+WR_EN => RD_DATA[3]~reg0.ENA
+WR_EN => memorie.WE
+WR_DATA[0] => memorie.data_a[0].DATAIN
+WR_DATA[0] => memorie.DATAIN
+WR_DATA[1] => memorie.data_a[1].DATAIN
+WR_DATA[1] => memorie.DATAIN1
+WR_DATA[2] => memorie.data_a[2].DATAIN
+WR_DATA[2] => memorie.DATAIN2
+WR_DATA[3] => memorie.data_a[3].DATAIN
+WR_DATA[3] => memorie.DATAIN3
+CLK => memorie.we_a.CLK
+CLK => memorie.waddr_a[3].CLK
+CLK => memorie.waddr_a[2].CLK
+CLK => memorie.waddr_a[1].CLK
+CLK => memorie.waddr_a[0].CLK
+CLK => memorie.data_a[3].CLK
+CLK => memorie.data_a[2].CLK
+CLK => memorie.data_a[1].CLK
+CLK => memorie.data_a[0].CLK
+CLK => RD_DATA[0]~reg0.CLK
+CLK => RD_DATA[1]~reg0.CLK
+CLK => RD_DATA[2]~reg0.CLK
+CLK => RD_DATA[3]~reg0.CLK
+CLK => memorie.CLK0
+RD_ADDR[0] => memorie.RADDR
+RD_ADDR[1] => memorie.RADDR1
+RD_ADDR[2] => memorie.RADDR2
+RD_ADDR[3] => memorie.RADDR3
+RD_DATA[0] <= RD_DATA[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+RD_DATA[1] <= RD_DATA[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+RD_DATA[2] <= RD_DATA[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+RD_DATA[3] <= RD_DATA[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|testbench|TOP:DUT1|ROM:DUT3
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+out[0] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

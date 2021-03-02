@@ -1,0 +1,3 @@
+module RAMt (input clock, input we, input[3:0] data, input[3:0] addrop1, input[3:0] addrop2, output reg[3:0] rdataop1, output reg[3:0] rdata, output reg[3:0] rdataop2);
+	reg[3:0] memorie[0:15];
+endmodule

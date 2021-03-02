@@ -1,0 +1,293 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Andrei/Documents/CID/tema 20200401 lab/simulation/modelsim
+vALUtema
+Z1 !s110 1586353821
+!i10b 1
+!s100 77O0GPDl[7@Mz>PZ;W__G0
+I5XQY`k]b@RDU8dIT;PNC70
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1585590994
+8C:/Users/Andrei/Documents/CID/tema 20200401 lab/ALUtema.v
+FC:/Users/Andrei/Documents/CID/tema 20200401 lab/ALUtema.v
+L0 1
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1586353821.662000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200401 lab/ALUtema.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab|C:/Users/Andrei/Documents/CID/tema 20200401 lab/ALUtema.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab}
+n@a@l@utema
+vANDtema
+Z6 !s110 1586353822
+!i10b 1
+!s100 i=ZV:`j=[REe=3G;o59<C0
+I9RS9E2B2fl09FUo5LT4@X1
+R2
+R0
+w1585600635
+8C:/Users/Andrei/Documents/CID/tema 20200401 lab/ANDtema.v
+FC:/Users/Andrei/Documents/CID/tema 20200401 lab/ANDtema.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586353821.998000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200401 lab/ANDtema.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab|C:/Users/Andrei/Documents/CID/tema 20200401 lab/ANDtema.v|
+!i113 1
+R4
+R5
+n@a@n@dtema
+vFULLADDERtema
+R1
+!i10b 1
+!s100 3l[?An@3PYBibjYWiVISL2
+I4DZ[jfDYMRfS1;FR;]IU23
+R2
+R0
+w1585596178
+8C:/Users/Andrei/Documents/CID/tema 20200401 lab/FULLADDERtema.v
+FC:/Users/Andrei/Documents/CID/tema 20200401 lab/FULLADDERtema.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586353821.807000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200401 lab/FULLADDERtema.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab|C:/Users/Andrei/Documents/CID/tema 20200401 lab/FULLADDERtema.v|
+!i113 1
+R4
+R5
+n@f@u@l@l@a@d@d@e@rtema
+vMUX21tema
+R1
+!i10b 1
+!s100 :`@Qj23ILh_TQESe9H13F2
+I_2aR=d;BjL;NaT:moZ;JL1
+R2
+R0
+w1585668723
+8C:/Users/Andrei/Documents/CID/tema 20200401 lab/MUX21tema.v
+FC:/Users/Andrei/Documents/CID/tema 20200401 lab/MUX21tema.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586353821.908000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200401 lab/MUX21tema.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab|C:/Users/Andrei/Documents/CID/tema 20200401 lab/MUX21tema.v|
+!i113 1
+R4
+R5
+n@m@u@x21tema
+vMUX41tema
+R1
+!i10b 1
+!s100 5KBlhSZDz`Z0hR]A9QZ4j3
+IR1j^mHG8:LOSbY58POUj12
+R2
+R0
+w1585597452
+8C:/Users/Andrei/Documents/CID/tema 20200401 lab/MUX41tema.v
+FC:/Users/Andrei/Documents/CID/tema 20200401 lab/MUX41tema.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586353821.954000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200401 lab/MUX41tema.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab|C:/Users/Andrei/Documents/CID/tema 20200401 lab/MUX41tema.v|
+!i113 1
+R4
+R5
+n@m@u@x41tema
+vNANDtema
+R6
+!i10b 1
+!s100 =OC:04gR`9FA6[gf5K:Vk0
+IMWo:CVbbKYj:aL5RZ0^6H0
+R2
+R0
+w1585668961
+8C:/Users/Andrei/Documents/CID/tema 20200401 lab/NANDtema.v
+FC:/Users/Andrei/Documents/CID/tema 20200401 lab/NANDtema.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586353822.155000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200401 lab/NANDtema.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab|C:/Users/Andrei/Documents/CID/tema 20200401 lab/NANDtema.v|
+!i113 1
+R4
+R5
+n@n@a@n@dtema
+vNORtema
+R6
+!i10b 1
+!s100 `NRTRoV[NB0:9VXI5HYOM0
+IlN5fhQ7:dZO0AFINR0fnN2
+R2
+R0
+w1585668907
+8C:/Users/Andrei/Documents/CID/tema 20200401 lab/NORtema.v
+FC:/Users/Andrei/Documents/CID/tema 20200401 lab/NORtema.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586353822.210000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200401 lab/NORtema.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab|C:/Users/Andrei/Documents/CID/tema 20200401 lab/NORtema.v|
+!i113 1
+R4
+R5
+n@n@o@rtema
+vNOTtema
+R6
+!i10b 1
+!s100 5l;bNEY]`a4L8ANUl[l=j3
+IYI`o^;[9E7Qk^FlWVbV:42
+R2
+R0
+w1585601121
+8C:/Users/Andrei/Documents/CID/tema 20200401 lab/NOTtema.v
+FC:/Users/Andrei/Documents/CID/tema 20200401 lab/NOTtema.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586353822.110000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200401 lab/NOTtema.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab|C:/Users/Andrei/Documents/CID/tema 20200401 lab/NOTtema.v|
+!i113 1
+R4
+R5
+n@n@o@ttema
+vORtema
+R6
+!i10b 1
+!s100 W1SJWMdG3__ZV09EiIicI3
+Ik_[oCFaea<CGa5]j?iQRn2
+R2
+R0
+w1585600748
+8C:/Users/Andrei/Documents/CID/tema 20200401 lab/ORtema.v
+FC:/Users/Andrei/Documents/CID/tema 20200401 lab/ORtema.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586353822.064000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200401 lab/ORtema.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab|C:/Users/Andrei/Documents/CID/tema 20200401 lab/ORtema.v|
+!i113 1
+R4
+R5
+n@o@rtema
+vsumator
+R1
+!i10b 1
+!s100 IUFLF^81lmA8OQ5G3<iE[1
+IMVM<Zn54ib><VlA2P:D2K1
+R2
+R0
+w1585596157
+8C:/Users/Andrei/Documents/CID/tema 20200401 lab/sumator.v
+FC:/Users/Andrei/Documents/CID/tema 20200401 lab/sumator.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586353821.852000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200401 lab/sumator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab|C:/Users/Andrei/Documents/CID/tema 20200401 lab/sumator.v|
+!i113 1
+R4
+R5
+vsumatorelemen
+R1
+!i10b 1
+!s100 9YX0O]lAQ3L=5OgNGRPH92
+Ic5TNXG<QM:EF0i9Pf9mcS0
+R2
+R0
+w1585592056
+8C:/Users/Andrei/Documents/CID/tema 20200401 lab/sumatorelem.v
+FC:/Users/Andrei/Documents/CID/tema 20200401 lab/sumatorelem.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586353821.720000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200401 lab/sumatorelem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab|C:/Users/Andrei/Documents/CID/tema 20200401 lab/sumatorelem.v|
+!i113 1
+R4
+R5
+vtoptema
+R1
+!i10b 1
+!s100 XY2<QXd?0M_Q1g[meO?nk3
+I3OJfIB3;4OeL<D3k:ZijC0
+R2
+R0
+w1585602569
+8C:/Users/Andrei/Documents/CID/tema 20200401 lab/toptema.v
+FC:/Users/Andrei/Documents/CID/tema 20200401 lab/toptema.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586353821.562000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200401 lab/toptema.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab|C:/Users/Andrei/Documents/CID/tema 20200401 lab/toptema.v|
+!i113 1
+R4
+R5
+vXNORtema
+R6
+!i10b 1
+!s100 0=Fl2zl?SNCTK^fz9kGnX1
+I2^6L6C=`8]ZY7IVRNj6mR3
+R2
+R0
+w1585668355
+8C:/Users/Andrei/Documents/CID/tema 20200401 lab/XNORtema.v
+FC:/Users/Andrei/Documents/CID/tema 20200401 lab/XNORtema.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586353822.256000
+!s107 C:/Users/Andrei/Documents/CID/tema 20200401 lab/XNORtema.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema 20200401 lab|C:/Users/Andrei/Documents/CID/tema 20200401 lab/XNORtema.v|
+!i113 1
+R4
+R5
+n@x@n@o@rtema

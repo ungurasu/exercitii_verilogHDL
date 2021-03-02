@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Andrei/Documents/CID/tema curs 3/simulation/modelsim
+vcircuit1
+Z1 !s110 1586604060
+!i10b 1
+!s100 R:1Vz:@dBfWc27m@<2g^l0
+IiafFK9hj:FRkjJJABZH[_3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z3 w1586422990
+8C:/Users/Andrei/Documents/CID/tema curs 3/circuit1.v
+FC:/Users/Andrei/Documents/CID/tema curs 3/circuit1.v
+L0 1
+Z4 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1586604060.734000
+!s107 C:/Users/Andrei/Documents/CID/tema curs 3/circuit1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema curs 3|C:/Users/Andrei/Documents/CID/tema curs 3/circuit1.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/Andrei/Documents/CID/tema curs 3}
+vcircuit2
+R1
+!i10b 1
+!s100 Q7KN1?hMW9RC972iFQmJP0
+IL03I`lj`1?STY6HOOnTDR3
+R2
+R0
+R3
+8C:/Users/Andrei/Documents/CID/tema curs 3/circuit2.v
+FC:/Users/Andrei/Documents/CID/tema curs 3/circuit2.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1586604060.781000
+!s107 C:/Users/Andrei/Documents/CID/tema curs 3/circuit2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema curs 3|C:/Users/Andrei/Documents/CID/tema curs 3/circuit2.v|
+!i113 1
+R5
+R6
+vtestbench
+R1
+!i10b 1
+!s100 QzlV^DC;IDHmSc[4HjOWN0
+I1cmBjEj4dBV<D_G^?@N[D3
+R2
+R0
+w1586604031
+8C:/Users/Andrei/Documents/CID/tema curs 3/testbench.v
+FC:/Users/Andrei/Documents/CID/tema curs 3/testbench.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1586604060.624000
+!s107 C:/Users/Andrei/Documents/CID/tema curs 3/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema curs 3|C:/Users/Andrei/Documents/CID/tema curs 3/testbench.v|
+!i113 1
+R5
+R6

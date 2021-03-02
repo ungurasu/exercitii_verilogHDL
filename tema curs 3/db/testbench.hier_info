@@ -1,0 +1,22 @@
+|testbench
+
+
+|testbench|circuit1:DUT1
+b <= b~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c <= c~reg0.DB_MAX_OUTPUT_PORT_TYPE
+a => b.DATAA
+clock => c~reg0.CLK
+clock => b~reg0.CLK
+nReset => b.OUTPUTSELECT
+nReset => c.OUTPUTSELECT
+
+
+|testbench|circuit2:DUT2
+b <= b~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c <= c~reg0.DB_MAX_OUTPUT_PORT_TYPE
+a => b.DATAB
+clock => c~reg0.CLK
+clock => b~reg0.CLK
+nReset => b.OUTPUTSELECT
+
+

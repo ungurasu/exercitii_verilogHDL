@@ -1,0 +1,3 @@
+module and3 (input[2:0] in, output out);
+	assign out = in == 111;
+endmodule

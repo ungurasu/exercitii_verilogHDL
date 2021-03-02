@@ -1,0 +1,9 @@
+module sumator(input cin, input in0, input in1, output cout, output sum, output wire pare);
+	wire parity;
+	
+	assign cout = (cin & (in0 ^ in1))|(in0 & in1);
+	assign sum = cin ^ (in0 ^ in1);
+	assign parity = cin ^ (in0 ^ in1);
+	
+	parityChecker DUT1(.in(sum),.out(par));
+endmodule

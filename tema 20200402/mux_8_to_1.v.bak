@@ -1,0 +1,13 @@
+module mux_8_to_1(output reg out, input [2:0]sel, input [7:0]in);
+	reg[1:0] sell;
+	reg[3:0] inl;
+	reg[3:0] inhl
+	wire outl;
+	wire outh;
+	
+	assign sell = sel[1:0];
+	
+	mux_4_to_1 DUT1(.out(outl), .sel(sell), .in(inl));
+	mux_4_to_1 DUT2(.out(outh), .sel(sell), .in(inh));
+	
+endmodule

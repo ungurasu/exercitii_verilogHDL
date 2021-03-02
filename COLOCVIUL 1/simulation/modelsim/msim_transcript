@@ -1,0 +1,115 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do testbench_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL\ 1 {C:/Users/Andrei/Documents/CID/COLOCVIUL 1/testbench.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:03:09 on May 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL 1" C:/Users/Andrei/Documents/CID/COLOCVIUL 1/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 16:03:09 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL\ 1 {C:/Users/Andrei/Documents/CID/COLOCVIUL 1/parityChecker.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:03:09 on May 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL 1" C:/Users/Andrei/Documents/CID/COLOCVIUL 1/parityChecker.v 
+# -- Compiling module parityChecker
+# 
+# Top level modules:
+# 	parityChecker
+# End time: 16:03:09 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL\ 1 {C:/Users/Andrei/Documents/CID/COLOCVIUL 1/sumator.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:03:09 on May 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL 1" C:/Users/Andrei/Documents/CID/COLOCVIUL 1/sumator.v 
+# -- Compiling module sumator
+# 
+# Top level modules:
+# 	sumator
+# End time: 16:03:09 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL\ 1 {C:/Users/Andrei/Documents/CID/COLOCVIUL 1/comparatort.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:03:09 on May 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL 1" C:/Users/Andrei/Documents/CID/COLOCVIUL 1/comparatort.v 
+# -- Compiling module comparatort
+# 
+# Top level modules:
+# 	comparatort
+# End time: 16:03:09 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL\ 1 {C:/Users/Andrei/Documents/CID/COLOCVIUL 1/transcodor.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:03:09 on May 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL 1" C:/Users/Andrei/Documents/CID/COLOCVIUL 1/transcodor.v 
+# -- Compiling module transcodor
+# 
+# Top level modules:
+# 	transcodor
+# End time: 16:03:09 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL\ 1 {C:/Users/Andrei/Documents/CID/COLOCVIUL 1/muxt.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:03:09 on May 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL 1" C:/Users/Andrei/Documents/CID/COLOCVIUL 1/muxt.v 
+# -- Compiling module muxt
+# 
+# Top level modules:
+# 	muxt
+# End time: 16:03:09 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL\ 1 {C:/Users/Andrei/Documents/CID/COLOCVIUL 1/top.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 16:03:09 on May 13,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Andrei/Documents/CID/COLOCVIUL 1" C:/Users/Andrei/Documents/CID/COLOCVIUL 1/top.v 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:03:09 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.testbench
+# vsim -gui "+altera" -l msim_transcript -do "testbench_run_msim_rtl_verilog.do" 
+# Start time: 16:03:14 on May 13,2020
+# Loading work.testbench
+# Loading work.top
+# Loading work.sumator
+# Loading work.parityChecker
+# Loading work.comparatort
+# Loading work.muxt
+# Loading work.transcodor
+add wave -position end  sim:/testbench/in0
+add wave -position end  sim:/testbench/in1
+add wave -position end  sim:/testbench/in2
+add wave -position end  sim:/testbench/in3
+add wave -position end  sim:/testbench/out
+run -all
+add wave -position end  sim:/testbench/DUT1/DUT1/cin
+add wave -position end  sim:/testbench/DUT1/DUT1/in0
+add wave -position end  sim:/testbench/DUT1/DUT1/in1
+add wave -position end  sim:/testbench/DUT1/DUT1/cout
+add wave -position end  sim:/testbench/DUT1/DUT1/sum
+add wave -position end  sim:/testbench/DUT1/DUT1/par
+restart -f
+run -continue
+add wave -position end  sim:/testbench/DUT1/DUT2/in0
+add wave -position end  sim:/testbench/DUT1/DUT2/out
+restart -f
+run -all
+# End time: 16:09:37 on May 13,2020, Elapsed time: 0:06:23
+# Errors: 0, Warnings: 0

@@ -1,0 +1,5 @@
+module ROM16x8(input[3:0]);
+	reg[7:0] memorie[0:15];
+	
+	memorie[0] = 'S';
+endmodule

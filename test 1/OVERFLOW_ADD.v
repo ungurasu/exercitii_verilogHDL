@@ -1,0 +1,6 @@
+module OVERFLOW_ADD(input[1:0] in0, input[1:0] in1, output out);
+	wire[3:0] aux;
+	
+	assign aux = in0 + in1;
+	assign out = (aux > 3);
+endmodule

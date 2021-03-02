@@ -1,0 +1,157 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Andrei/Documents/CID/tema curs 4/simulation/modelsim
+vcircuit1
+Z1 !s110 1586693789
+!i10b 1
+!s100 h=]@Y`9gLR40DF]<nE9FP0
+IJ><8eFHRoiBzO@=3clJY22
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1586691900
+8C:/Users/Andrei/Documents/CID/tema curs 4/circuit1.v
+FC:/Users/Andrei/Documents/CID/tema curs 4/circuit1.v
+L0 1
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1586693789.510000
+!s107 C:/Users/Andrei/Documents/CID/tema curs 4/circuit1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema curs 4|C:/Users/Andrei/Documents/CID/tema curs 4/circuit1.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/Andrei/Documents/CID/tema curs 4}
+vcircuit2
+R1
+!i10b 1
+!s100 [79i4AMfdcSPN^Di?loN]2
+Ig=83?;1@C[[zdd2^D6l;D0
+R2
+R0
+w1586693284
+8C:/Users/Andrei/Documents/CID/tema curs 4/circuit2.v
+FC:/Users/Andrei/Documents/CID/tema curs 4/circuit2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586693789.595000
+!s107 C:/Users/Andrei/Documents/CID/tema curs 4/circuit2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema curs 4|C:/Users/Andrei/Documents/CID/tema curs 4/circuit2.v|
+!i113 1
+R4
+R5
+vdnand
+R1
+!i10b 1
+!s100 MF^jnRGaV6WVFILWgHABQ1
+IT0HBT>J?2WKckRf]EIELB3
+R2
+R0
+Z6 w1586692278
+8C:/Users/Andrei/Documents/CID/tema curs 4/dnand.v
+FC:/Users/Andrei/Documents/CID/tema curs 4/dnand.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586693789.424000
+!s107 C:/Users/Andrei/Documents/CID/tema curs 4/dnand.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema curs 4|C:/Users/Andrei/Documents/CID/tema curs 4/dnand.v|
+!i113 1
+R4
+R5
+vdnor
+R1
+!i10b 1
+!s100 6o_DbL[XM8m7PLQKQ9@US3
+IZ2TM2Mmka;PfPkiH@c=in2
+R2
+R0
+R6
+8C:/Users/Andrei/Documents/CID/tema curs 4/dnor.v
+FC:/Users/Andrei/Documents/CID/tema curs 4/dnor.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586693789.380000
+!s107 C:/Users/Andrei/Documents/CID/tema curs 4/dnor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema curs 4|C:/Users/Andrei/Documents/CID/tema curs 4/dnor.v|
+!i113 1
+R4
+R5
+vdor
+R1
+!i10b 1
+!s100 ?ddJBXfjHD9:OU2`VK4eE3
+I7nJ<HX]ChlVo^O9KCz`@E0
+R2
+R0
+w1586691805
+8C:/Users/Andrei/Documents/CID/tema curs 4/dor.v
+FC:/Users/Andrei/Documents/CID/tema curs 4/dor.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586693789.466000
+!s107 C:/Users/Andrei/Documents/CID/tema curs 4/dor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema curs 4|C:/Users/Andrei/Documents/CID/tema curs 4/dor.v|
+!i113 1
+R4
+R5
+vflipflop
+R1
+!i10b 1
+!s100 I26PChVFK3IVk[69d1hkY2
+IbnT^>bH[^W:YK9^mNeD861
+R2
+R0
+w1586693011
+8C:/Users/Andrei/Documents/CID/tema curs 4/flipflop.v
+FC:/Users/Andrei/Documents/CID/tema curs 4/flipflop.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586693789.553000
+!s107 C:/Users/Andrei/Documents/CID/tema curs 4/flipflop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema curs 4|C:/Users/Andrei/Documents/CID/tema curs 4/flipflop.v|
+!i113 1
+R4
+R5
+vtestbench
+R1
+!i10b 1
+!s100 `YC]Fo8EE6IFFUCc?XHRb0
+IzeE]UVUo[lm@e=e4]Ig@g1
+R2
+R0
+w1586693714
+8C:/Users/Andrei/Documents/CID/tema curs 4/testbench.v
+FC:/Users/Andrei/Documents/CID/tema curs 4/testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586693789.265000
+!s107 C:/Users/Andrei/Documents/CID/tema curs 4/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Andrei/Documents/CID/tema curs 4|C:/Users/Andrei/Documents/CID/tema curs 4/testbench.v|
+!i113 1
+R4
+R5
